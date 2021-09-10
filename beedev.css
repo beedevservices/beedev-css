@@ -4,6 +4,12 @@
   align-items: center;
   justify-content: center;
 }
+.flexaltcolumn {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
 .flexrow {
   display: flex;
   flex-direction: row;
@@ -16,15 +22,30 @@
   align-items: center;
   justify-content: center;
 }
-.flexaltcolumn {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-}
 .navlinks {
   margin: 1em;
   text-decoration: none;
+}
+.spaceEvenly {
+  justify-content: space-evenly;
+}
+.spaceAround {
+  justify-content: space-around;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.alignStart {
+  align-items: flex-start;
+}
+.img250 {
+  max-width: 250px;
+}
+.img100 {
+  max-width: 100px;
+}
+.icon {
+  max-width: 25px;
 }
 body {
   display: flex;
@@ -37,12 +58,14 @@ body header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body header nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body header nav a {
   margin: 1em;
@@ -53,12 +76,14 @@ body .header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body .header nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body .header nav a {
   margin: 1em;
@@ -69,16 +94,19 @@ body main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
 body .footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 95%;
 }
