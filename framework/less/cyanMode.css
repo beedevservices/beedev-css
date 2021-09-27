@@ -1,0 +1,8 @@
+.cyan {
+  background-color: #009999;
+  color: #e6ffff;
+}
+body.cyanMode {
+  background-color: #009999;
+  color: #e6ffff;
+}

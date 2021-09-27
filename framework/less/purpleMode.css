@@ -1,0 +1,8 @@
+.purple {
+  background-color: #993399;
+  color: #f9ecf9;
+}
+body.purpleMode {
+  background-color: #993399;
+  color: #f9ecf9;
+}

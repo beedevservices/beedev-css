@@ -1,0 +1,8 @@
+.blue {
+  background-color: #003399;
+  color: #e6eeff;
+}
+body.blueMode {
+  background-color: #003399;
+  color: #e6eeff;
+}

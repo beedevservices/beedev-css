@@ -1,0 +1,8 @@
+.red {
+  background-color: #e60000;
+  color: #ffe6e6;
+}
+body.redMode {
+  background-color: #e60000;
+  color: #ffe6e6;
+}

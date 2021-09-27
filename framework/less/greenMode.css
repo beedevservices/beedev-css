@@ -1,0 +1,8 @@
+.green {
+  background-color: #006600;
+  color: #e6ffe6;
+}
+body.greenMode {
+  background-color: #006600;
+  color: #e6ffe6;
+}
