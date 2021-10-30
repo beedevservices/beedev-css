@@ -90,6 +90,17 @@ body {
     main {
         .flexcolumn();
         width: 95%;
+
+        .row {
+            .flexrow();
+
+            .column {
+                .flexcolumn();
+            }
+        }
+        .wrap {
+            flex-wrap: wrap;
+        }
     }
     footer {
         .flexcolumn();
